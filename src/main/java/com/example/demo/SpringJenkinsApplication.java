@@ -20,7 +20,7 @@ public class SpringJenkinsApplication {
 	
 	public static void main(String[] args) {
 		logger.info("Application executed...************");
-		logger.info("Email logger");
+		logger("Email logger");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 		System.out.println("Hello*****************s");
 	}
